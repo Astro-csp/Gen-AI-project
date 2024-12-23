@@ -6,7 +6,7 @@ efficiency_factor = 0.8  # 一般取值 0.7~0.85
 aspect_ratio = 7.5       # 展弦比 (需要根据机翼实际情况调整)
 
 # 输入和输出文件夹
-input_folder = "/Users/chany/Gen-AI project on git/Datasets from GitHub (1)"  # 输入文件夹路径，存放多个 CSV 文件
+input_folder = "/Users/chany/Gen-AI project on git/AirfoilANN Datasets"  # 输入文件夹路径，存放多个 CSV 文件
 output_folder = '/Users/chany/Gen-AI project on git/naca_airloil_with_drag_components'  # 输出文件夹路径
 os.makedirs(output_folder, exist_ok=True)  # 确保输出文件夹存在
 
